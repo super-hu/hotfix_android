@@ -1,5 +1,8 @@
 [robust 热修复实践](https://www.jianshu.com/p/b0ceab410b5c)
 
+
+[apk下载地址 ](https://fir.im/gmal)
+
 #####  测试说明
 
 1.第一个补丁
