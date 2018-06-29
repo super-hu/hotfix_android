@@ -38,7 +38,7 @@
     <!--这个配置项是各个APP需要自行配置，就是你们App里面你们自己代码的包名，
     这些包名下的类会被Robust插入代码，没有被Robust插入代码的类Robust是无法修复的-->
     <packname name="hotfixPackage">
-        <name>cn.superh.hot</name>
+        <name>com.superh.hot</name>
     </packname>
 
     <!--不需要Robust插入代码的包名，Robust库不需要插入代码，如下的配置项请保留，还可以根据各个APP的情况执行添加-->

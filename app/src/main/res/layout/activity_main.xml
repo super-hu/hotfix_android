@@ -22,21 +22,12 @@
         app:layout_constraintTop_toBottomOf="@+id/version_edit"
         android:layout_marginTop="30dp"/>
 
-
-    <Button
-        android:id="@+id/switch_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="切换下个补丁地址"
-        app:layout_constraintTop_toBottomOf="@+id/path_edit"/>
-
-
     <Button
         android:id="@+id/make_patch_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="打补丁"
-        app:layout_constraintTop_toBottomOf="@+id/switch_btn"
+        app:layout_constraintTop_toBottomOf="@+id/path_edit"
         android:layout_marginTop="20dp"/>
 
     <Button
@@ -45,7 +36,7 @@
         android:layout_height="wrap_content"
         android:text="查看补丁内容"
         app:layout_constraintLeft_toRightOf="@+id/make_patch_btn"
-        app:layout_constraintTop_toBottomOf="@+id/switch_btn"
+        app:layout_constraintTop_toBottomOf="@+id/path_edit"
         android:layout_marginTop="20dp"/>
 
 

@@ -2,6 +2,7 @@ package com.superh.hot;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -35,17 +36,18 @@ public class HotfixTestActivity extends AppCompatActivity {
     }
 
 
+//    public void initData() {
+//        textView.setText("我还没有打补丁");
+//    }
+
+    @Modify
     public void initData() {
-        textView.setText("我还没有打补丁");
+        textView.setText(getTextString());
+        textView.setTextColor(Color.parseColor("#990033"));
     }
 
-//    @Modify
-//    public void initData() {
-//        textView.setText(getTextString());
-//    }
-//
-//    @Add
-//    public String getTextString(){
-//        return "已经打补丁了";
-//    }
+    @Add
+    public String getTextString(){
+        return "第二次打补丁了";
+    }
 }
